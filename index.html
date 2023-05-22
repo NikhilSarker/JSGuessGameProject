@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Pet Project Assignment | Part-2</title>
+  <!-- CSS PAGE LINK -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+
+<body>
+  <section id="wrapper">
+    <h1>Let's Play Guess a Number Game</h1>
+    <!-- RANDOM NUMBER PART START -->
+    <div id="randomNumber">
+      <input type="password" id="randomInput" >
+      <button id="randomBtn">Random Number</button>
+      <button id="restart">Play Again</button>    
+    </div>
+    <!-- RANDOM NUMBER PART END -->
+    <div id="flex_container">
+      <!-- PLAYER1 PART START -->
+      <div id="player1_main">
+        <h2 id="player1Head">Player 1</h2>
+        <div id="player1">
+          <h2>Chance Remain:<span id="player1Chance">3</span></h2>
+          <input type="password" id="player1Input" >
+          <button id="player1Btn">Guess</button>
+          <p id="player1_text"></p>
+          <p id="player1_score"></p>
+        </div>
+      </div>
+      <!-- PLAYER1 PART END -->
+      <!-- PLAYER2 PART START -->
+      <div id="player2_main">
+        <h2 id="player2Head">Player 2</h2>
+        <div id="player2">
+          <h2>Chance Remain:<span id="player2Chance">3</span></h2>
+          <input type="password" id="player2Input" >
+          <button id="player2Btn">Guess</button>
+          <p id="player2_text"></p>
+          <p id="player2_score"></p>
+        </div>
+      </div>
+      <!-- PLAYER2 PART END -->
+    </div>
+  </section>
+
+  <!--JAVASCRIPT PAGE LINK  -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
